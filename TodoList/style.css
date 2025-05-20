@@ -1,0 +1,168 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  font-family: poppins;
+  font-size: medium;
+  background: pink;
+}
+
+.todo-buttom {
+  width: 100px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.todo-buttom-delete {
+  width: 100px;
+  border: 2px solid red;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.todo-buttom-delete:hover {
+  color: red;
+  background: white;
+}
+
+.todo-buttom-check {
+  width: 100px;
+  border: 2px solid green;
+  cursor: pointer;
+   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.todo-buttom-check:hover {
+  color: green;
+  background: white;
+}
+
+.main {
+  background-color: #89cff0;
+  width: 70%;
+  height: 80%;
+  border-radius: 7%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#title {
+  font-size: 120%;
+}
+
+#input1 {
+  display: flex;
+  gap: 20px;
+}
+
+#buttom1 {
+  width: 120px;
+  cursor: pointer;
+}
+
+#in-label {
+  font-size: 24px;
+}
+
+#input-error {
+  text-align: center;
+  width: 100%;
+  color: red;
+}
+
+#in-error {
+  font-size: 18px;
+}
+
+.todo-list {
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+#tags{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  
+}
+
+#tag-total-1{
+  width: 100px;
+  height: 25px;
+  background: rgb(225 6 0);
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#tag-total-2{
+   width: 100px;
+  height: 25px;
+  background: rgb(12, 115, 198);
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#tag-total-3{
+   width: 100px;
+  height: 25px;
+  background: rgb(28, 198, 12);
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#trash{
+  width: 24px;
+  height: 24px;
+  /* display: flex;
+  align-items: center; */
+}
+
+#check-icon{
+  width: 24px;
+  height: 24px;
+}
+
+#edit-icon{
+   width: 24px;
+  height: 24px;
+}
+
+@media (max-width: 768px) {
+  .main {
+    width: 90%;
+    height: 80%;
+  }
+  #title {
+    font-size: 12px;
+  }
+  #input1 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  #buttom1 {
+    width: 40px;
+  }
+
+  #in-label {
+    font-size: 14px;
+  }
+
+}
